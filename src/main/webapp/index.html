@@ -1,26 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Java Web Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<table>
-		<tr>
-			<td style='width: 30%;'>
-				<img class = "newappIcon" src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<!-- The "Hello World!" message comes from /SimpleServlet -->
-				<h1 id = "message"></h1>
-				<p> This is a PFC DevOps test! </p>
-				<p class='description'></p> Thanks for creating a <span class="blue">Liberty for Java Starter Application</span>.
-				<p class='description'></p> PFC <span class="blue">DevOps</span>.
-			</td>
-		</tr>
-	</table>
-	<!-- Call SimpleServlet to get the "Hello World" message  -->
-	<script type="text/javascript" src="index.js"></script>
-</body>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Zalla</a></li>
+          <li><a href="#">Browse</a></li>
+        </ul>
+        <ul  class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Find a wave to stay.</h1>
+        <p>Rent from locals in over 34,000 beaches and 192 countries.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Paddle guides</h2>
+            <p>Learn with the Arpex Master</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img src="http://www.rft.com.br/wp-content/uploads/2014/11/verao1-636x381.jpg">
+                    </div>
+                    <div class="thumbnail">
+                      <img src="http://goo.gl/an2HXY">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img src="http://www.rft.com.br/wp-content/uploads/2014/11/verao1-636x381.jpg">
+                    </div>
+                    <div class="thumbnail">
+                      <img src="http://goo.gl/vw43v1">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                      <img src="http://goo.gl/0Kd7UO">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Boards</h3>
+			<p>From airs to barrels, zalla boards are the bests.</p>
+			<p><a href="#">See how to do it like Zalla</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Wet suits</h3>
+			<p>Renting out your used long john</p>
+			<p><a href="#">Learn more about it</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Friendly sharks</h3>
+			<p>You've never seen this before.</p>
+			<p><a href="#">Rio sharks just like girls</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
 </html>
